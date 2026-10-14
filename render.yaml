@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: market-companion-live
+    runtime: python
+    buildCommand: pip install flask requests
+    startCommand: python server.py
